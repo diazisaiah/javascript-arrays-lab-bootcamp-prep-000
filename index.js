@@ -16,11 +16,11 @@ function appendKitten(){
   return [...kittens, "Broom"];
 }
 function prependKitten(){
-  ["Arnold", ...kittens]
+  return ["Arnold", ...kittens]
 }
 function removeLastKitten(){
-  kittens.slice(2)
+  return kittens.slice(2)
 }
 function removeFirstKitten(){
-  kittens.slice(0)
+  return kittens.slice(0)
 }
