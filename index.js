@@ -9,3 +9,6 @@ function destructivelyPrependKitten(){
 function destructivelyRemoveLastKitten(){
   kittens.pop("Garfield")
 }
+function destructivelyRemoveFirstKitten(){
+  kittens.shift("Milo")
+}
